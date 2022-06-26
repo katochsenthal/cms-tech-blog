@@ -16,6 +16,9 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    content: {
+      type: DataTypes.STRING,
+    },
     user_id: {
       type: DataTypes.INTEGER,
       references: {
@@ -26,7 +29,7 @@ Post.init(
     date_created: {
       type: DataTypes.DATE,
       allowNull: false,
-      defaultValue: sequelize.NOW,
+      defaultValue: sequelize.fn("NOW"),
     },
   },
   {

@@ -11,12 +11,19 @@
       <nav>
         <a>Home</a>
         <a>Dashboard</a>
-        <a>Login</a>
+        {{#if loggedIn}}
+          <a id="logout">Logout</a>
+        {{else}}
+          <a>Login</a>
+        {{/if}}
       </nav>
       <h1>The Tech Blog</h1>
     </header>
 
     {{{body}}}
+    {{#if loggedIn}}
+      <script src="/javascript/logout.js"></script>
+    {{/if}}
   </body>
 
 </html>

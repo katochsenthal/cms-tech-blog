@@ -48,8 +48,6 @@ async function loginFormHandler(event) {
       alert(response.statusText);
     }
   }
-  document.querySelector("#username-login").value = "";
-  document.querySelector("#password-login").value = "";
 }
 
 document

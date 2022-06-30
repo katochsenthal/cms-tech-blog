@@ -6,11 +6,10 @@
     by
     {{user.username}}
     on
-    {{created_at}}
+    {{format_date date_created}}
   </div>
   <div>
     <p>{{content}}</p>
     <a href="/post/{{id}}">See post</a>
-    <a>{{comments.length}}</a>
   </div>
 </article>

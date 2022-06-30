@@ -1,6 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  background-color: #a2e4b8;
 }
 
 /* header */
@@ -11,12 +12,17 @@ header {
   padding: 20px;
 }
 
+nav {
+  background-color: #654321;
+}
 h1 {
   padding-top: 15px;
 }
 
 header a {
   color: #a2e4b8;
+  background-color: #654321;
+  text-decoration: none;
 }
 
 header a:not(:first-child) {
@@ -31,4 +37,93 @@ h1 {
   margin-top: 20px;
   border-radius: 10px;
   box-shadow: 3px 5px #d3f3de;
+}
+
+/* login page */
+
+.login-container {
+  background-color: #a2e4b8;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #654321;
+}
+.login-form,
+.signup-form {
+  border: 4px solid #654321;
+  width: 270px;
+  margin: 25px;
+  height: 150px;
+  position: relative;
+}
+
+.login-form div,
+.signup-form div {
+  margin: 10px;
+}
+
+.login-form input,
+.signup-form input {
+  margin-left: 20px;
+  float: right;
+}
+
+.btn-container {
+  position: absolute;
+  bottom: 0px;
+  left: 33%;
+}
+.login-form button,
+.signup-form button {
+  width: 100px;
+  height: 28px;
+  margin: 0 auto;
+  display: block;
+  background-color: #654321;
+  color: #a2e4b8;
+  border-radius: 10px;
+}
+
+input {
+  background-color: white;
+}
+
+/* dashboard */
+.dashboard {
+  margin: 25px;
+  border: 4px solid #654321;
+  height: 100vh;
+}
+
+.create-post {
+  margin: 25px;
+}
+
+.create-post h2,
+.create-post form,
+.new-post-form div {
+  margin: 20px;
+}
+
+textarea {
+  background-color: white;
+  margin-left: 10px;
+  width: 300px;
+}
+
+.new-post-form input {
+  margin-left: 30px;
+}
+
+.content-align * {
+  vertical-align: middle;
+}
+
+.create-btn {
+  width: 100px;
+  height: 28px;
+  background-color: #654321;
+  color: #a2e4b8;
+  border-radius: 10px;
 }

@@ -9,12 +9,12 @@
   <body>
     <header>
       <nav>
-        <a>Home</a>
-        <a>Dashboard</a>
+        <a href="/">Home</a>
+        <a href="/dashboard">Dashboard</a>
         {{#if loggedIn}}
           <a id="logout">Logout</a>
         {{else}}
-          <a>Login</a>
+          <a href="/login">Login</a>
         {{/if}}
       </nav>
       <h1>The Tech Blog</h1>

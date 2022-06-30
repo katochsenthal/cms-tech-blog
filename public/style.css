@@ -127,3 +127,56 @@ textarea {
   color: #a2e4b8;
   border-radius: 10px;
 }
+
+.post div {
+  margin: 10px;
+}
+
+.post div p {
+  margin-bottom: 5px;
+}
+
+/* single post */
+
+.edit .add-btn {
+  margin: 10px;
+}
+
+/* edit post */
+.edit-post {
+  padding: 10px;
+}
+
+.edit-post h2 {
+  margin: 20px;
+}
+
+.edit-post-form div label {
+  margin: 20px;
+}
+
+.content-post {
+  margin-top: 20px;
+}
+
+.content-input {
+  margin-left: 30px;
+}
+
+.post-btn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.delete-post-btn {
+  margin-left: 30px;
+}
+
+.comment-form {
+  margin: 10px;
+}
+
+.add-comment-btn {
+  margin: 10px;
+}

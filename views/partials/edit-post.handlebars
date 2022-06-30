@@ -1,25 +1,49 @@
-<article>
-    <a href="/dashboard"> &larr; Back to dashboard</a>
-    <h2>
-        Edit Post
-    </h2>
-    <form class="edit-post-form">
+<div class="dashboard">
+    <article class="edit-post">
+        <a href="/dashboard"> &larr; Back to dashboard</a>
+        <h2>
+            Edit Post
+        </h2>
+        <form class="edit-post-form">
+            <div>
+                <label for="post-title">Title:</label>
+                <input class="content-input" name="post-title" type="text" value={{post.title}} />
+                <br>
+                <div class="content-align content-post">
+                    <label for="post-content">Content:</label>
+                    <textarea name="post-content">{{post.content}}</textarea>
+                </div>
+            </div>
+            <div class="post-btn">
+                <button class="create-btn" type="submit">Save Post</button>
+                <button class="create-btn delete-post-btn" type="button">Delete Post</button>
+
+            </div>
+        </form>
+    </article>
+    <form class="comment-form">
         <div>
-            <input name="post-title" type="text" value={{post.title}} />
-            <input name="post-content" type="text" value={{post.content}} />
+            <textarea name="comment-body"></textarea>
         </div>
-        <button type="submit">Save Post</button>
-        <button type="button" class="delete-post-btn">Delete Post</button>
-    </form>
-</article>
-<form class="comment-form">
-    <div>
-        <textarea name="comment-body"></textarea>
-    </div>
-    <div>
-        <button type="submit">add comment</button>
-    </div>
-</form>
+        <div class="add-comment-btn">
+            <button class="create-btn" type="submit">add comment</button>
+        </div>
+         </form>
+
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 {{> comments post.comments}}
 <script src="/javascript/edit-post.js"></script>
 <script src="/javascript/delete-post.js"></script>

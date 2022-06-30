@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+
+header {
+  background-color: #654321;
+  color: #a2e4b8;
+  padding: 20px;
+}
+
+h1 {
+  padding-top: 15px;
+}
+
+header a {
+  color: #a2e4b8;
+}
+
+header a:not(:first-child) {
+  padding-left: 20px;
+}
+
+h1 {
+  background-color: #a2e4b8;
+  color: #654321;
+  padding: 10px 20px;
+  width: 240px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 5px #d3f3de;
+}

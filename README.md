@@ -21,7 +21,7 @@ This website allows developers to write about tech so they can publish articles,
 
 The following languages / technologies were used to build this project.
 
-- JavaScript, CSS, ES6, Bootstrap, Node, MySql, Handlebars, Sequelize
+- JavaScript, CSS, ES6, Node, MySql, Handlebars, Sequelize
 
 ## Screenshots
 

@@ -57,6 +57,7 @@ router.get("/post/:id", (req, res) => {
         return res.status(404).json({ message: "No post found with this id" });
       }
       const post = dbPostData.get({ plain: true });
+      console.log("line 60 from home-routes.js", post);
       res.render("single-post", { post, loggedIn: req.session.loggedIn });
     })
     .catch((err) => {

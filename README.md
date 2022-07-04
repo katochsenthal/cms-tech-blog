@@ -35,6 +35,8 @@ The following languages / technologies were used to build this project.
 
 ## Live Site
 
+https://cms-tech-blog1.herokuapp.com/
+
 ## Setup
 
 Please follow the step by step below to implement this project.
@@ -48,7 +50,7 @@ Please follow the step by step below to implement this project.
 
 Please follow the step by step below to use this application.
 
-From the root of your project, run node server.js, navigate locally to http://localhost:3003 or the live URL at then a sign-in page will be presented, create user or login if you already have an account, create your posts for others to see.
+From the root of your project, run node server.js, navigate locally to http://localhost:3003 or the live URL at https://cms-tech-blog1.herokuapp.com/ then a sign-in page will be presented, create user or login if you already have an account, create your posts for others to see.
 
 ## Author
 
